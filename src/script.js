@@ -1,115 +1,176 @@
 const perguntas = [
-  {
-    pergunta: 'O que significa a sigla "DOM" em JavaScript?',
-    respostas: [
-      "Documento Orientado a Modelos",
-      "Modelo de Objeto para Documentos",
-      "Documento de Objeto Manipulável",
-    ],
-    correta: 1,
-  },
-  {
-    pergunta:
-      "Qual é a maneira correta de escrever um comentário em JavaScript?",
-    respostas: [
-      "// Comentário aqui",
-      "/* Comentário aqui */",
-      "<!-- Comentário aqui -->",
-    ],
-    correta: 0,
-  },
-  {
-    pergunta: 'Qual é a função do método "querySelector" em JavaScript?',
-    respostas: [
-      "Selecionar múltiplos elementos do DOM",
-      "Selecionar um elemento do DOM usando um seletor CSS",
-      "Selecionar um elemento do DOM por sua classe",
-    ],
-    correta: 1,
-  },
-  {
-    pergunta: "Como você define uma variável em JavaScript?",
-    respostas: [
-      "let myVar = valor;",
-      "variable myVar = valor;",
-      "const myVar = valor;",
-    ],
-    correta: 2,
-  },
-  {
-    pergunta: 'Qual é o resultado da expressão 5 + "5" em JavaScript?',
-    respostas: ["10", "55", "Erro de tipo"],
-    correta: 1,
-  },
-  {
-    pergunta:
-      "Qual é o operador utilizado para comparar igualdade estrita em JavaScript?",
-    respostas: ["==", "===", "="],
-    correta: 1,
-  },
-  {
-    pergunta: 'Qual é a função do método "addEventListener" em JavaScript?',
-    respostas: [
-      "Remover um ouvinte de eventos",
-      "Adicionar um ouvinte de eventos a um elemento do DOM",
-      "Criar um novo evento personalizado",
-    ],
-    correta: 1,
-  },
-  {
-    pergunta:
-      "Como você converte uma string em um número inteiro em JavaScript?",
-    respostas: ["parseInt(string)", "string.toInt()", "number(string)"],
-    correta: 0,
-  },
-  {
-    pergunta: 'O que o método "push" faz em um array em JavaScript?',
-    respostas: [
-      "Remove o último elemento do array",
-      "Adiciona um novo elemento ao início do array",
-      "Adiciona um novo elemento ao final do array",
-    ],
-    correta: 2,
-  },
-  {
-    pergunta:
-      'Qual é a maneira correta de acessar o terceiro elemento de um array chamado "myArray"?',
-    respostas: ["myArray[2]", "myArray[3]", "myArray.3"],
-    correta: 0,
-  },
+	{
+		pergunta: 'Qual é a função do comando "print" em Python?',
+		respostas: [
+			"A: Para imprimir mensagens na tela.",
+			"B: Para declarar variáveis.",
+			"C: Para criar loops.",
+		],
+		correta: 0,
+	},
+	{
+		pergunta:
+			"Como se chama o tipo de dados que contém apenas dois valores: True e False?",
+		respostas: ["A: Inteiro", "B: Booleano", "C: String"],
+		correta: 1,
+	},
+	{
+		pergunta: "O que é Python?",
+		respostas: [
+			"A: Um tipo de serpente.",
+			"B: Uma linguagem de programação.",
+			"C: Uma ferramenta de análise de dados.",
+		],
+		correta: 1,
+	},
+	{
+		pergunta: "Qual é o símbolo usado para comentar uma linha em Python?",
+		respostas: ["A: //", "B: #", "C: /* */"],
+		correta: 1,
+	},
+	{
+		pergunta: "Qual é o operador usado para concatenar strings em Python?",
+		respostas: ["A: +", "B: -", "C: *"],
+		correta: 0,
+	},
+	{
+		pergunta: 'Qual é a função da instrução "if" em Python?',
+		respostas: [
+			"A: Para definir uma função.",
+			"B: Para criar um loop.",
+			"C: Para fazer uma verificação condicional.",
+		],
+		correta: 2,
+	},
+	{
+		pergunta:
+			"Qual é o método utilizado para encontrar o número de itens em uma lista em Python?",
+		respostas: ["A: count()", "B: size()", "C: length()"],
+		correta: 0,
+	},
+	{
+		pergunta:
+			"Como se chama a função que é chamada automaticamente quando um objeto é criado?",
+		respostas: ["A: init()", "B: start()", "C: constructor()"],
+		correta: 0,
+	},
+	{
+		pergunta:
+			"Qual é a estrutura de dados que permite armazenar múltiplos valores em uma única variável em Python?",
+		respostas: ["A: Lista", "B: Dicionário", "C: Tupla"],
+		correta: 0,
+	},
+	{
+		pergunta:
+			"Qual é a função utilizada para ler a entrada do usuário em Python?",
+		respostas: ["A: read()", "B: input()", "C: get()"],
+		correta: 1,
+	},
+	{
+		pergunta: "Qual é o resultado da expressão 3 * (2 + 1)?",
+		respostas: ["A: 6", "B: 9", "C: 12"],
+		correta: 1,
+	},
+	{
+		pergunta: "O que é uma exceção em Python?",
+		respostas: [
+			"A: Um erro que ocorre durante a execução de um programa.",
+			"B: Um tipo especial de variável.",
+			"C: Um loop infinito.",
+		],
+		correta: 0,
+	},
+	{
+		pergunta: "Qual é o operador usado para a exponenciação em Python?",
+		respostas: ["A: ^", "B: **", "C: *"],
+		correta: 1,
+	},
+	{
+		pergunta:
+			"Qual é o método usado para remover o último item de uma lista em Python?",
+		respostas: ["A: remove()", "B: delete()", "C: pop()"],
+		correta: 2,
+	},
+	{
+		pergunta:
+			"Qual é o tipo de dados que não pode ser alterado após a sua criação em Python?",
+		respostas: ["A: Mutável", "B: Imutável", "C: Dinâmico"],
+		correta: 1,
+	},
+	{
+		pergunta:
+			"Qual é a função usada para converter um valor em uma string em Python?",
+		respostas: ["A: str()", "B: convert()", "C: string()"],
+		correta: 0,
+	},
+	{
+		pergunta:
+			"Qual é a função que retorna o maior valor em uma lista em Python?",
+		respostas: ["A: max()", "B: maximum()", "C: bigger()"],
+		correta: 0,
+	},
+	{
+		pergunta: "Qual é o método usado para ordenar uma lista em Python?",
+		respostas: ["A: sort()", "B: order()", "C: arrange()"],
+		correta: 0,
+	},
+	{
+		pergunta: "O que é um módulo em Python?",
+		respostas: [
+			"A: Uma função específica do Python.",
+			"B: Um tipo de variável.",
+			"C: Um arquivo que contém funções e variáveis que podem ser importadas em outros programas.",
+		],
+		correta: 2,
+	},
+	{
+		pergunta: "Qual é o resultado da expressão 10 / 2?",
+		respostas: ["A: 2", "B: 5", "C: 10"],
+		correta: 1,
+	},
+	{
+		pergunta: "O que é uma função em Python?",
+		respostas: [
+			"A: Um nome de variável.",
+			"B: Um tipo de estrutura de dados.",
+			"C: Um bloco de código reutilizável que executa uma tarefa específica.",
+		],
+		correta: 2,
+	},
 ];
-const quiz = document.querySelector("#quiz"); 
-const template = document.querySelector("template"); 
+
+const quiz = document.querySelector("#quiz");
+const template = document.querySelector("template");
 const corretas = new Set();
-const totalDePerguntas = perguntas.length; 
+const totalDePerguntas = perguntas.length;
 const mostrarTotal = document.querySelector("#acertos span");
 
 mostrarTotal.textContent = `${corretas.size} de ${totalDePerguntas}`;
 
 for (const item of perguntas) {
-  const quizItem = template.content.cloneNode(true);
-  quizItem.querySelector("h3").textContent = item.pergunta;
+	const quizItem = template.content.cloneNode(true);
+	quizItem.querySelector("h3").textContent = item.pergunta;
 
-  for (let resposta of item.respostas) {
-    const dt = quizItem.querySelector("dl dt").cloneNode(true); 
-    dt.querySelector("span").textContent = resposta; 
-    dt.querySelector("input").setAttribute(
-      "name",
-      `pergunta-${perguntas.indexOf(item)}`
-    );
-    dt.querySelector("input").value = item.respostas.indexOf(resposta); 
-    dt.querySelector("input").onchange = (event) => {
-      const estaCorreta = event.target.value == item.correta; 
+	for (let resposta of item.respostas) {
+		const dt = quizItem.querySelector("dl dt").cloneNode(true);
+		dt.querySelector("span").textContent = resposta;
+		dt.querySelector("input").setAttribute(
+			"name",
+			`pergunta-${perguntas.indexOf(item)}`
+		);
+		dt.querySelector("input").value = item.respostas.indexOf(resposta);
+		dt.querySelector("input").onchange = (event) => {
+			const estaCorreta = event.target.value == item.correta;
 
-      corretas.delete(item); 
-      if (estaCorreta) {
-        corretas.add(item);
-      }
-      mostrarTotal.textContent = `${corretas.size} de ${totalDePerguntas}`;
-    };
+			corretas.delete(item);
+			if (estaCorreta) {
+				corretas.add(item);
+			}
+			mostrarTotal.textContent = `${corretas.size} de ${totalDePerguntas}`;
+		};
 
-    quizItem.querySelector("dl").appendChild(dt); 
-  }
-  quizItem.querySelector("dt").remove(); 
-  quiz.appendChild(quizItem);
+		quizItem.querySelector("dl").appendChild(dt);
+	}
+	quizItem.querySelector("dt").remove();
+	quiz.appendChild(quizItem);
 }

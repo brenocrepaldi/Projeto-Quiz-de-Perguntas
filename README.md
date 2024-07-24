@@ -1,24 +1,24 @@
-# Projeto: Quiz de Perguntas
+# Quiz
 
-### Descrição
-Este projeto foi desenvolvido como parte da mentoria ministrada pelo professor Mayk Brito na plataforma da RocketSeat durante o período do evento Next Level Week (NLW) Expert. O objetivo do projeto é fornecer uma ferramenta educacional através de um quiz de perguntas e respostas, utilizando as tecnologias HTML5, CSS3 e JavaScript.
+### Description
+This project was developed as part of the mentorship led by Mayk Brito on the RocketSeat platform during the Next Level Week (NLW) Expert event. The goal of the project is to provide an educational tool through a quiz format, utilizing HTML5, CSS3, and JavaScript technologies.
 
-### Habilidades Desenvolvidas
-Durante o desenvolvimento deste projeto, foram trabalhadas diversas habilidades relacionadas às tecnologias utilizadas, tais como:
+### Skills Developed
+During the development of this project, several skills related to the technologies used were honed, including:
 
-- Aprofundamento na estruturação de códigos em **JavaScript**.
-- Manipulação do **DOM** (Document Object Model).
-- Organização de estrutura de dados para armazenamento das perguntas e respostas.
-- Template e clonagem de nós no **DOM**.
-- Manipulação de eventos do usuário.
-- Utilização de conjuntos (Sets) para gerenciar dados únicos.
-- Aplicação de boas práticas de programação, visando a legibilidade e manutenibilidade do código.
-- Utilização de tags e semântica adequada em **HTML** para uma melhor acessibilidade e indexação pelos mecanismos de busca.
-- Uso de pseudo-seletores em CSS para estilização específica de elementos.
-- Manipulação de estilos em tags específicas do **HTML**, como `<input>`, para personalização da aparência.
+- **JavaScript**: Deepened understanding of code structuring and implementation of complex logic.
+- **DOM Manipulation**: Gained expertise in manipulating the Document Object Model (DOM) to dynamically update the user interface.
+- **Data Management**: Organized and managed data structures for storing questions and answers efficiently.
+- **DOM Templates and Cloning**: Applied techniques for template creation and node cloning to streamline content generation.
+- **Event Handling**: Implemented event listeners to handle user interactions and enhance the quiz experience.
+- **Sets for Unique Data**: Utilized Sets to manage and ensure uniqueness of data elements within the application.
+- **Programming Best Practices**: Followed best practices to ensure code readability, maintainability, and scalability.
+- **HTML Semantics**: Applied appropriate HTML tags and semantics for better accessibility and search engine indexing.
+- **CSS Pseudo-Selectors**: Used CSS pseudo-selectors for targeted styling of elements and improved visual presentation.
+- **Styling HTML Elements**: Customized the appearance of specific HTML tags, such as <input>, to match the design requirements.
 
-### Como Utilizar
-Para utilizar o projeto, basta abrir o arquivo index.html em um navegador web compatível com as tecnologias HTML5, CSS3 e JavaScript. O usuário será apresentado com uma série de perguntas e opções de resposta, podendo selecionar a resposta desejada e avançar para a próxima pergunta. Embaixo da página, é possível ver a pontuação obtida, com uma atualização imediata.
+### How to Use
+To use the project, simply open the index.html file in a web browser that supports HTML5, CSS3, and JavaScript. The user will be presented with a series of questions and answer options, where they can select their desired answer and proceed to the next question. The score is displayed at the bottom of the page, with immediate updates as users progress through the quiz.
 
-### Contribuições
-Contribuições são bem-vindas! Caso identifique algum problema, bug ou tenha sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request neste repositório.
+### Contributions
+Contributions are welcome! If you identify any issues, bugs, or have suggestions for improvements, feel free to open an issue or submit a pull request to this repository.
